@@ -113,9 +113,52 @@ merge_list(list1,list2)"""
 
 #Exercise 11: Write a Program to extract each digit from an integer in the reverse order.
 
-x = int(input("Enter the digit:"))
-a = x//10
+"""x = int(input("Enter the digit:"))
 
-print(a,)
+while x>0:
+    b = x%10
+    x=  x//10
+    print (b, end=" ")"""
+
+#Exercise 12: Calculate income tax for the given income by adhering to the rules below
+
+"""x = int(input("enter your income:"))
+tax = 0
+
+if x>10000:
+    a = x-10000;
+    if a>10000:
+        b = a-10000;
+    elif:
+
+        tax = b*0.2 + 10000*0.1
+
+print(tax)"""
+
+#Exercise 13: Print multiplication table from 1 to 10
+"""print("The multiplicaiton table is:")
+
+for a in range(1,10):
+    print(a, end="\n",)
+    for b in range (1,11):
+        print(a*b, end=" ") """
+
+#Exercise 14: Print a downward Half-Pyramid Pattern of Star (asterisk)
+"""print("The Half Pyramid Triangle is here:")
+for i in range(5,1,-1):
+        for j in range(i,0,-1):
+            print("*", end=" ")
+        print(" ")"""
+
+#Exercise 15: Write a function called exponent(base, exp) that returns an int value of base raises to the power of exp.
+"""def exponent(base, exp):
+    result = 1;
+    for i in range(exp):
+        result = result * base
+    print(result)
+
+exponent(2,4) """
+
+
 
 
